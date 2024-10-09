@@ -9,6 +9,7 @@ import util.TipoPago;
  * @author Samuel Vega
  */
 public class Pedido {
+
     private int id;
     private String descripcion;
     private EstadoPedidos estado;
@@ -18,10 +19,12 @@ public class Pedido {
     private TipoPago tipoPago;
 
     // Constructor vacío
-    public Pedido() { }
+    public Pedido() {
+    }
 
     /**
      * Constructor sin ID
+     *
      * @param descripcion Descripción del pedido
      * @param estado Estado del pedido (Cocinando, Enviado, Cancelado, Pagado)
      * @param costo Costo del pedido
@@ -40,6 +43,7 @@ public class Pedido {
 
     /**
      * Constructor del pedido
+     *
      * @param id ID del pedido
      * @param descripcion Descripción del pedido
      * @param estado Estado del pedido (Cocinando, Enviado, Cancelado, Pagado)
@@ -139,6 +143,7 @@ public class Pedido {
 
     /**
      * Manda la información del objeto.
+     *
      * @return Información del objeto.
      */
     @Override

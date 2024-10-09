@@ -35,7 +35,7 @@ public class Direccion {
     }
 
     /**
-     * Constructor de la dirección
+     * Constructor de Dirección
      * @param id ID de la dirección
      * @param calle Calle
      * @param colonia Colonia
